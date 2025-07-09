@@ -20,6 +20,8 @@ export default function Player({initialName,symbol,isActive,changeName})
             changeName(symbol,playerName);
         }
     }
+
+    /* Code used to check whether the player has won*/
     
     let editablePlayerName=<span className="player-name">{playerName}</span>
     if(isEditing)
