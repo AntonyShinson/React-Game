@@ -1,5 +1,6 @@
 import {useState} from 'react';
 
+/* Code used to check whether the player has won*/
 
 
 export default function Player({initialName,symbol,isActive,changeName})
@@ -21,7 +22,6 @@ export default function Player({initialName,symbol,isActive,changeName})
         }
     }
 
-    /* Code used to check whether the player has won*/
     
     let editablePlayerName=<span className="player-name">{playerName}</span>
     if(isEditing)
