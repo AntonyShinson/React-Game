@@ -4,4 +4,4 @@ export default function Log({turns})
     {turns.map((turn=><li key={`${turn.square.row}${turn.square.col}`}>{turn.player} selected {turn.square.row} ,{turn.square.col}</li>))}
     </ol>
 }
-#hello in t
+#hello in tngf jjyf jyfjyf kloi gjf ytdytf fyty tddjyfyf tdyfy y yffhyt y
